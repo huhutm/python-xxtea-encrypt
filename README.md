@@ -1,2 +1,2 @@
-# python-tea-encrypt
-tea algorithm
+# python-xxtea-encrypt
+xxtea algorithm
