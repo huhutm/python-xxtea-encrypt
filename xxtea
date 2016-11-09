@@ -1,7 +1,7 @@
 def mx(z, y, sum, e, k, p):
     return (((z >> 5) ^ (y << 2)) + (((y >> 3) ^ (z << 4)) ^ (sum ^ y)) + (k[(((p) & (3)) ^ e)] ^ z)) & 0xffffffff
 
-def tea_encrypt(v, n, k):
+def xxtea_encrypt(v, n, k):
     DELTA = 0x9e3779b9
     z = v[n - 1]
     y = v[0]
